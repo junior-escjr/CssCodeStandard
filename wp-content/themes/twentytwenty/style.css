@@ -44,18 +44,17 @@ body {
   }
 }
 
+.sub-menu { display: none; }
 .sidebar .menu-item a { display: block; padding: .5rem 1rem; }
-
 .sidebar .nav-link, .sidebar .menu-item a { font-weight: 500; color: #333; }
-
 .sidebar .nav-link .feather, .sidebar .menu-item a .feather { margin-right: 4px; color: #999; }
-
 .sidebar .nav-link.active, .sidebar .menu-item.current-menu-item a { color: #007bff; }
-
 .sidebar .nav-link:hover .feather,
 .sidebar .menu-item a:hover .feather,
 .sidebar .menu-item.current-menu-item a .feather,
 .sidebar .nav-link.active .feather { color: inherit; }
+.sidebar .menu-item.current-menu-item .sub-menu { display: block; }
+
 
 .sidebar-heading {
   font-size: .75rem;
